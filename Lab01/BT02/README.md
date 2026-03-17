@@ -1,5 +1,6 @@
 ## Viết chương trình nhập vào hai phân số, tìm phân số lớn nhất và xuất ra kết quả
 Nội dung flowchart:
+
 ![flowchart](bai0102.drawio.png)
 ## Mô tả đầu vào, đầu ra:
 -	Đầu vào: tử số, mẫu số (mẫu số phải khác 0)
