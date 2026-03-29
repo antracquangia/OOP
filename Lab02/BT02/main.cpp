@@ -23,7 +23,7 @@ int main()
     PhanSo TICH = a.Tich(b);
     cout<<"Tich hai phan so A va B: ";
     TICH.Xuat();
-    if (b.getMauSo()== 0)
+    if (b.getTuSo()== 0)
         cout<<"Khong the thuc hien thuong\n";
     else
     {
