@@ -74,7 +74,6 @@ void PhanSo::Nhap()
 
 /**
  * @brief Xuất phân số ra màn hình theo định dạng tu/mau
- * @return Phân số
  * @note Nếu mẫu số bằng 1, hàm chỉ in ra tử số (số nguyên)
  */
 void PhanSo::Xuat()
