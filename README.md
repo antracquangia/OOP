@@ -7,4 +7,6 @@
 * [Lab01-BT04](/Lab01/BT04)
 * [Lab01-BT05](/Lab01/BT05)
 ### Lab02:
+* [Lab02-BT01](/Lab02/BT01)
 * [Lab02-BT02](/Lab02/BT02)
+* [Lab02-BT03](/Lab02/BT03)
