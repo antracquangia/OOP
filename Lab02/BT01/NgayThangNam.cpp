@@ -17,7 +17,7 @@ NgayThangNam::~NgayThangNam()
 /**
  * @brief Kiểm tra xem chuỗi có phải là số nguyên
  * @param s chuỗi cần kiểm tra
- * @return trả về 1 nếu chuỗi là số nguyên, 0 nếu chuỗi không là số nguyên
+ * @return bool trả về 1 nếu chuỗi là số nguyên, 0 nếu chuỗi không là số nguyên
  */
 bool isNumber(const std::string& s)
 {
