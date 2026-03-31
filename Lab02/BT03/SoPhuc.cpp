@@ -35,7 +35,7 @@ bool isNumber(const std::string& s)
 }
 
 /**
- * @brief Nhập vào ngày tháng năm từ bàn phím
+ * @brief Nhập vào số phức từ bàn phím
  * @details Hàm kiểm tra phần thực, phần ảo có là số nguyên
  * @note Nếu nhập vào không phải là số nguyên, hàm sẽ bắt người dùng nhập lại
  */
@@ -66,13 +66,13 @@ void SoPhuc::Nhap()
 
 /**
  * @brief Xuất ra màn hình so phức theo định dạng a + bi
+ * @note Nếu phần ảo  = 0 thì xuất ra phần thực thôi
  */
 void SoPhuc::Xuat()
 {
     if (iAo == 0) cout<<iThuc<<"\n";
-    else cout<<iThuc<<" + "<<iAo<<"i\n";
+    else cout<<iThuc<<(iAo < 0 ?" - " :" + ")<<abs(iAo)<<"i\n";
 }
-
 /**
 * @brief Tổng của số phức hiện tại với số phức a
 * @param a Số phức thứ hai
@@ -114,6 +114,7 @@ SoPhuc SoPhuc::Tich(const SoPhuc &a)
 
 /**
 * @brief Thương của số phức hiện tại với số phức a
+* @note khai báo phần thực và phần ảo là số nguyên nên giá trị bị ép kiểu về int
 * @param a Số phức thứ hai
 * @return SoPhuc Thương của hai số
 */
