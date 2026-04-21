@@ -2,3 +2,4 @@
 - [Lab02-BT01](/Lab02/BT01) 
 - [Lab02-BT02](/Lab02/BT02)
 - [Lab02-BT03](/Lab02/BT03)
+- [Lab02-BT04](/Lab02/BT04)
