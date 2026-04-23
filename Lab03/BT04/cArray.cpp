@@ -88,7 +88,7 @@ void cArray::TaoNgauNhien()
         cout<<"Nhap vao so luong phan tu: ";
         getline(cin,a);
         if (isInt(a)&& stoi(a) >= 1) break;
-        else cout<<"So dinh phai la so int lon hon hoac bang 1\n";
+        else cout<<"So luong phan tu phai la so int lon hon hoac bang 1\n";
     }
     n = stoi(a);
     p = new int [n];
