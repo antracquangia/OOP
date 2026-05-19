@@ -53,7 +53,7 @@ istream &operator>>(istream& is, DaThuc &dat)
         cout<<"Nhap vao bac cua da thuc: ";
         getline(is,s);
         if (CheckInt(s) && stoi(s) >= 0) break;
-        else cout<<"Bac cua da thuc phai lon hon hoac bang 0\n";
+        else cout<<"Bac cua da thuc phai la so nguyen lon hon hoac bang 0\n";
     }  while (1);
     dat.n = stoi(s);
     if (dat.p != NULL) delete [] dat.p;
