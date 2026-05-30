@@ -63,10 +63,18 @@ int main() {
     dsNV[max]->Xuat();
     cout << "--- NHAN VIEN CO LUONG THAP NHAT ---\n";
     dsNV[min]->Xuat();
-    cout << "--- LAP TRINH VIEN CO LUONG CAO NHAT ---\n";
-    dsNV[maxLTV]->Xuat();
-    cout<< "--- KIEM CHUNG VIEN CO LUONG THAP NHAT ---\n";
-    dsNV[minKCV]->Xuat();
+    if (maxLTV == -1) cout<<"KHONG CO LAP TRINH VIEN\n";
+    else
+    {
+        cout << "--- LAP TRINH VIEN CO LUONG CAO NHAT ---\n";
+        dsNV[maxLTV]->Xuat();
+    }
+    if (minKCV == -1) cout<<"KHONG CO KIEM CHUNG VIEN\n";
+    else
+    {
+        cout<< "--- KIEM CHUNG VIEN CO LUONG THAP NHAT ---\n";
+        dsNV[minKCV]->Xuat();
+    }
     for (auto nv : dsNV) delete nv;    
     return 0;
 }
