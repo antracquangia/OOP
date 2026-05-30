@@ -13,7 +13,6 @@ bool CheckDouble( string s)
     bool NumDot = 0;
     for (int i =0; i<s.size(); i++)
     {
-        if (i == 0 && s[i] == '-') continue;
         if (s[i] == '.' ) 
         {
             if (NumDot)
